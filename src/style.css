@@ -11,3 +11,6 @@
 
 /* Authentic founder photo, preserving original composition */
 .founder-photo{padding:0;overflow:hidden;display:block;border:1px solid #40516c;background:#111b2b}.founder-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;}
+
+/* Real website snapshot fallback for sites that disallow iframe embedding */
+.interactive-cover .website-screenshot{display:block;position:relative;flex:1;min-height:0;overflow:hidden;background:linear-gradient(140deg,#1a2a40,#0c1424);text-decoration:none}.website-screenshot img{display:block;width:100%;height:100%;object-fit:cover;object-position:top center}.website-screenshot .screenshot-fallback-label{display:none}.website-screenshot.screenshot-unavailable{display:flex;align-items:center;justify-content:center;padding:24px}.website-screenshot.screenshot-unavailable .screenshot-fallback-label{display:inline-flex;align-items:center;gap:12px;color:#eaf3ff;font-size:15px;font-weight:600;text-align:center}.website-screenshot:hover img{filter:brightness(.92)}
